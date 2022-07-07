@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    display: inline-block;
+}
+.colorlib{
+    height: 45px;
+    width: 165px;
+    position: absolute;
+
+}
+.colorlib_img{
+    position: absolute;
+    height: 30px;
+    width: 123.75px;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.personal_button{
+    width: 160.16px;
+    height: 60px;
+    position: absolute;
+    display: inline-block;
+    margin-left: 165px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #9b9b9b;
+    background-color: #222;
+    border: 0;
+    cursor: pointer;
+
+}
+

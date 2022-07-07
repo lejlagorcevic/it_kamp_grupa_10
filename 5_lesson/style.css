@@ -1,0 +1,47 @@
+.glavni {
+    height: 97vh;
+    width: 98vw;
+    background-color: cadetblue;
+    position: fixed;
+border: 5px solid rgb(41, 68, 69);}
+
+
+.top_left {
+    width: fit-content;
+    height: fit-content;
+    background-color: cadetblue;
+    position: absolute;
+    top: 0px;
+    left: 0px;}
+    
+.top_right {
+    width: fit-content;
+    height: fit-content;
+    background-color: cadetblue;
+    position: absolute;
+    top: 0;
+    right: 0;}
+
+.bottom_left {
+    width: fit-content;
+    height: fit-content;
+    background-color: cadetblue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.bottom_right {
+    width: fit-content;
+    height: fit-content;
+    background-color: cadetblue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.centered {
+   
+position: absolute;
+   top: 50%;
+   left: 50%;
+   
+}

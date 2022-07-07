@@ -1,0 +1,13 @@
+.mojDiv{
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(126, 158, 172);
+    background-color: rgb(169, 210, 221);
+    display: inline-block;
+
+}
+
+.material-icons {
+    width: 50px;
+    height: 50px;
+}
