@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+}
+.Container {
+    height: 96vh;
+    width: 98vw;
+}
+.Top {
+    height: 60px;
+    width:100%;
+    background-color: #6366f1;
+    position: fixed;
+}
+.opener {
+    background-color: transparent;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 100%;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-style: normal;
+    align-items: center;
+    position: relative;
+    left: 18px;
+    top: 20%;
+    border-color: #6366f1;
+    padding: 5px 32px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    border-radius: 18px;
+}
+.opener {
+    transition-duration: 0.4s;
+  }
+  .button:hover {
+    background-color: blue; 
+    color: white;
+  }
+  .opener::after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s}
+.ImageDiv {
+    display: inline-block;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+}
+.Menu {
+    width: 98wv;
+    height: 618px;
+    position: relative;
+    top: 60px;
+}
+.prviBox {
+    width: 728px;
+    height: 169px;
+    border-bottom: 2px solid #e5e7eb;
+    position: absolute;
+    left: 250px;
+    top: 80px;
+    padding-bottom: 2.5rem;
+}
+.ikonaDiv { 
+    flex-direction: row;
+    margin-right: 2.5rem;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    width: 180px;
+    height:150px;
+}
+.Naslov1 {
+    text-align: center;
+    height: 128px;
+    width: 500px;
+    position: absolute;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(78, 78, 78);
+    margin-bottom: 0;
+    padding-bottom: 0%;   
+}
+.tekstic {
+    text-align: left;
+    position: absolute;
+    left: 180px;
+    bottom: 5px;
+    margin-top: 0;
+    padding-top: 0%;
+}
+.LearnMore {
+    text-align: left;
+    position: absolute;
+    left: 180px;
+    top: 130px;
+    margin-top: 0;
+    padding-top: 0%;
+    color: #6366f1;
+}
+.drugiBox {
+    width: 728px;
+    height: 169px;
+    border-bottom: 2px solid #e5e7eb;
+    position: absolute;
+    left: 250px;
+    top: 300px;
+    padding-bottom: 2.5rem;
+}
+.ikonaDiv1 { 
+    flex-direction:row-reverse;
+    margin-right: 2.5rem;
+    position: absolute;
+    top: 35px;
+    left: 580px;
+    width: 180px;
+    height:150px;  
+}
+.Naslov2 {
+    text-align: center;
+    height: 128px;
+    width: 500px;
+    position: absolute;
+    top: 20px;
+    right: 370px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(78, 78, 78);
+    margin-bottom: 0;
+    padding-bottom: 0%;
+}
+.tekstic {
+    text-align: left;
+    position: absolute;
+    width: 550px;
+    left: 180px;
+    bottom: 5px;
+    margin-top: 0;
+    padding-top: 0%;
+}
+.LearnMore {
+    text-align: left;
+    position: absolute;
+    left: 180px;
+    top: 130px;
+    margin-top: 0;
+    padding-top: 0%;
+    color: #6366f1;
+}
+.treciBox {
+    width: 728px;
+    height: 169px;
+    border-bottom: 2px solid #e5e7eb;
+    position: absolute;
+    left: 250px;
+    top: 520px;
+    padding-bottom: 2.5rem;
+}
+.ikonaDiv { 
+    flex-direction: row;
+    margin-right: 2.5rem;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    width: 180px;
+    height:150px;
+}
+.Naslov1 {
+    text-align: center;
+    height: 128px;
+    width: 500px;
+    position: absolute;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(78, 78, 78);
+    margin-bottom: 0;
+    padding-bottom: 0%;  
+}
+.tekstic {
+    text-align: left;
+    position: absolute;
+    left: 180px;
+    bottom: 5px;
+    margin-top: 0;
+    padding-top: 0%;
+}
+.LearnMore {
+    text-align: left;
+    position: absolute;
+    left: 180px;
+    top: 130px;
+    margin-top: 0;
+    padding-top: 0%;
+    color: #6366f1;
+}
